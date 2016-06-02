@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE36FB101CCB1600000A8690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36FB0F1CCB1600000A8690 /* main.m */; };
+		EE36FB131CCB1600000A8690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36FB121CCB1600000A8690 /* AppDelegate.m */; };
+		EE36FB161CCB1600000A8690 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36FB151CCB1600000A8690 /* ViewController.m */; };
+		EE36FB191CCB1600000A8690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE36FB171CCB1600000A8690 /* Main.storyboard */; };
+		EE36FB1B1CCB1600000A8690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE36FB1A1CCB1600000A8690 /* Assets.xcassets */; };
+		EE36FB1E1CCB1600000A8690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE36FB1C1CCB1600000A8690 /* LaunchScreen.storyboard */; };
+		EE36FB271CCB553D000A8690 /* LeftSide.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36FB261CCB553D000A8690 /* LeftSide.m */; };
+		EE36FB291CCB5572000A8690 /* LeftSide.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE36FB281CCB5572000A8690 /* LeftSide.xib */; };
+		EECCA79D1CD34614009F0505 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECCA79C1CD34614009F0505 /* CameraViewController.xib */; };
+		EEEE3D221CD1B98C009B12D2 /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEEE3D211CD1B98C009B12D2 /* Setting.plist */; };
+		EEEE3D2E1CD20DA0009B12D2 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE3D2D1CD20DA0009B12D2 /* CameraViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE36FB0B1CCB1600000A8690 /* 侧滑界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "侧滑界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE36FB0F1CCB1600000A8690 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE36FB111CCB1600000A8690 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE36FB121CCB1600000A8690 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE36FB141CCB1600000A8690 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE36FB151CCB1600000A8690 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE36FB181CCB1600000A8690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE36FB1A1CCB1600000A8690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE36FB1D1CCB1600000A8690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE36FB1F1CCB1600000A8690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE36FB251CCB553D000A8690 /* LeftSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSide.h; sourceTree = "<group>"; };
+		EE36FB261CCB553D000A8690 /* LeftSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSide.m; sourceTree = "<group>"; };
+		EE36FB281CCB5572000A8690 /* LeftSide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftSide.xib; sourceTree = "<group>"; };
+		EECCA79C1CD34614009F0505 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		EEEE3D211CD1B98C009B12D2 /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Setting.plist; sourceTree = "<group>"; };
+		EEEE3D2C1CD20DA0009B12D2 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		EEEE3D2D1CD20DA0009B12D2 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE36FB081CCB1600000A8690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE36FB021CCB1600000A8690 = {
+			isa = PBXGroup;
+			children = (
+				EE36FB0D1CCB1600000A8690 /* 侧滑界面 */,
+				EE36FB0C1CCB1600000A8690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE36FB0C1CCB1600000A8690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE36FB0B1CCB1600000A8690 /* 侧滑界面.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE36FB0D1CCB1600000A8690 /* 侧滑界面 */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE3D281CD1F27C009B12D2 /* 相机 */,
+				EE36FB111CCB1600000A8690 /* AppDelegate.h */,
+				EE36FB121CCB1600000A8690 /* AppDelegate.m */,
+				EE36FB141CCB1600000A8690 /* ViewController.h */,
+				EE36FB151CCB1600000A8690 /* ViewController.m */,
+				EE36FB251CCB553D000A8690 /* LeftSide.h */,
+				EE36FB261CCB553D000A8690 /* LeftSide.m */,
+				EE36FB281CCB5572000A8690 /* LeftSide.xib */,
+				EE36FB171CCB1600000A8690 /* Main.storyboard */,
+				EE36FB1A1CCB1600000A8690 /* Assets.xcassets */,
+				EEEE3D211CD1B98C009B12D2 /* Setting.plist */,
+				EE36FB1C1CCB1600000A8690 /* LaunchScreen.storyboard */,
+				EE36FB1F1CCB1600000A8690 /* Info.plist */,
+				EE36FB0E1CCB1600000A8690 /* Supporting Files */,
+			);
+			path = "侧滑界面";
+			sourceTree = "<group>";
+		};
+		EE36FB0E1CCB1600000A8690 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE36FB0F1CCB1600000A8690 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEEE3D281CD1F27C009B12D2 /* 相机 */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE3D291CD1F27C009B12D2 /* model */,
+				EEEE3D2A1CD1F27C009B12D2 /* view */,
+				EEEE3D2B1CD1F27C009B12D2 /* viewController */,
+			);
+			path = "相机";
+			sourceTree = "<group>";
+		};
+		EEEE3D291CD1F27C009B12D2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EEEE3D2A1CD1F27C009B12D2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EEEE3D2B1CD1F27C009B12D2 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE3D2C1CD20DA0009B12D2 /* CameraViewController.h */,
+				EEEE3D2D1CD20DA0009B12D2 /* CameraViewController.m */,
+				EECCA79C1CD34614009F0505 /* CameraViewController.xib */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE36FB0A1CCB1600000A8690 /* 侧滑界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE36FB221CCB1600000A8690 /* Build configuration list for PBXNativeTarget "侧滑界面" */;
+			buildPhases = (
+				EE36FB071CCB1600000A8690 /* Sources */,
+				EE36FB081CCB1600000A8690 /* Frameworks */,
+				EE36FB091CCB1600000A8690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "侧滑界面";
+			productName = "侧滑界面";
+			productReference = EE36FB0B1CCB1600000A8690 /* 侧滑界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE36FB031CCB1600000A8690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = aaaaaa;
+				TargetAttributes = {
+					EE36FB0A1CCB1600000A8690 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R9V8R437AA;
+					};
+				};
+			};
+			buildConfigurationList = EE36FB061CCB1600000A8690 /* Build configuration list for PBXProject "侧滑界面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE36FB021CCB1600000A8690;
+			productRefGroup = EE36FB0C1CCB1600000A8690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE36FB0A1CCB1600000A8690 /* 侧滑界面 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE36FB091CCB1600000A8690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEE3D221CD1B98C009B12D2 /* Setting.plist in Resources */,
+				EE36FB1E1CCB1600000A8690 /* LaunchScreen.storyboard in Resources */,
+				EE36FB291CCB5572000A8690 /* LeftSide.xib in Resources */,
+				EECCA79D1CD34614009F0505 /* CameraViewController.xib in Resources */,
+				EE36FB1B1CCB1600000A8690 /* Assets.xcassets in Resources */,
+				EE36FB191CCB1600000A8690 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE36FB071CCB1600000A8690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEE3D2E1CD20DA0009B12D2 /* CameraViewController.m in Sources */,
+				EE36FB161CCB1600000A8690 /* ViewController.m in Sources */,
+				EE36FB271CCB553D000A8690 /* LeftSide.m in Sources */,
+				EE36FB131CCB1600000A8690 /* AppDelegate.m in Sources */,
+				EE36FB101CCB1600000A8690 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE36FB171CCB1600000A8690 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE36FB181CCB1600000A8690 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE36FB1C1CCB1600000A8690 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE36FB1D1CCB1600000A8690 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE36FB201CCB1600000A8690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE36FB211CCB1600000A8690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE36FB231CCB1600000A8690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "侧滑界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimc.dd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EE36FB241CCB1600000A8690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "侧滑界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimc.dd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE36FB061CCB1600000A8690 /* Build configuration list for PBXProject "侧滑界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE36FB201CCB1600000A8690 /* Debug */,
+				EE36FB211CCB1600000A8690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE36FB221CCB1600000A8690 /* Build configuration list for PBXNativeTarget "侧滑界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE36FB231CCB1600000A8690 /* Debug */,
+				EE36FB241CCB1600000A8690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE36FB031CCB1600000A8690 /* Project object */;
+}
